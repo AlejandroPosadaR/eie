@@ -1,0 +1,7 @@
+nav-bar {
+    height: 5rem;
+    position: sticky;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
