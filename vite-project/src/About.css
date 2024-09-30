@@ -1,0 +1,191 @@
+
+.about {
+    height: 50vh;
+    width: 100%;
+    background-color: #979696    ;
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+    justify-content: center;
+    min-height: 400px;
+    
+
+}
+
+
+.about-truck {
+    height: 80%;
+    margin: 50px;
+    width: auto;
+    max-height: 400px;
+}
+.about-truck img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-text {
+    max-width: 400px;
+    text-align: left;
+    margin: 50px;
+    color: black;
+
+}
+@media (max-width: 900px) {
+    .about {
+        height: auto;
+        max-height: fit-content;
+        flex-direction: column;
+    }
+
+    .about-text { 
+        margin-top: 10px;
+        max-width: none;
+    }
+    .about-truck {
+        margin: 30px;
+    }
+}
+/* ------------------------------------VISION------------------------------------*/
+.vision {
+    height: 60vh;
+    width: 100%;
+    background-color: white    ;
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+    justify-content: center;
+    min-height: 600px;
+    
+
+}
+
+.vision-colash {
+    margin: 50px;
+    width: auto;
+}
+
+.vision-colash img {
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 900px) {
+    .vision {
+        height: auto;
+        max-height: fit-content;
+        flex-direction: column;
+    }
+
+    .about-text { 
+        margin-top: 10px;
+        max-width: none;
+    }
+    .about-truck {
+        margin: 30px;
+    }
+}
+/* ------------------------------------SERVICES------------------------------------*/
+
+.services {
+    height: auto;
+    width: 100%;
+    background-color: #0A1931    ;
+    display: flex;
+    flex-direction:column;
+    overflow: hidden;
+    justify-content: center;
+    min-height: 600px;
+    
+
+}
+
+.services-top {
+    height: 5rem;
+    background-color: #0A1931;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+.services-img img {
+    height: 100%;
+    width: 100%;
+
+}
+.services-bottom {
+    height: auto;
+    background-color: #0A1931;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+    .vision {
+        height: auto;
+        max-height: fit-content;
+        flex-direction: column;
+    }
+
+}
+/* ------------------------------------PRODUCTS------------------------------------*/
+.products-sec {
+    height: 500px;
+    width: 100%;
+    background-color: #E6E6E6    ;
+    display: flex;
+    flex-direction:column;
+    overflow: hidden;
+    justify-content: center;
+    
+
+}
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height: 80%;
+}
+.products-item {
+    height: 800px;
+    width: 500px;
+    margin: 50px 10px;
+}
+.products img {
+    height: 200px;
+}
+/* ------------------------------------CONTACT------------------------------------*/
+.contact {
+    height: 60vh;
+}
+
+.contact-img {
+    width: 100%;
+    height: 50vh;
+    max-height: 600px;
+}
+.contact-img img {
+    height: 100%;
+    width: 100%;
+}
+.contact-bottom {
+    height: auto;
+    background-color: #0A1931;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.whatsapp {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.whatsapp img {
+    height: 100px;
+    width: 100px;
+}
