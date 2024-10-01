@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material';
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         {/* Left section for image */}
         <div className='about-truck'>
             <img src='../public/logistics-truck.jpg' alt='about image'/>

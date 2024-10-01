@@ -7,7 +7,7 @@ import Vision from './Mission';
 import Services from './Services';
 import Products from './Products';
 import Contact from './Contact';
-
+import Footer from './Footer';
 function Home() {
   return (
     <>
@@ -18,6 +18,7 @@ function Home() {
       <Services/>
       <Products/>
       <Contact/>
+      <Footer/>
     </>
   );
 }

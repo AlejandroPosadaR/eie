@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+    z-index: 9;
 }
 
 .logo {
@@ -34,4 +35,10 @@ button, .MuiIconButton-root {
 
 .MuiMenuItem-root {
     font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+    .navbar-text {
+        display: none;
+    }
 }

@@ -84,6 +84,25 @@
         margin: 30px;
     }
 }
+.heading-with-line {
+    position: relative;
+    display: inline-block; /* Ensure that the element behaves as inline for proper positioning */
+    font-size: 1.75rem; /* Adjust according to your design */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black; /* Customize the text color */
+}
+
+.heading-with-line::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px; /* Adjust distance from the text */
+    width: 60px; /* Length of the orange line */
+    height: 4px; /* Thickness of the line */
+    background-color: #0a439d; 
+}
+
 /* ------------------------------------SERVICES------------------------------------*/
 
 .services {
@@ -159,9 +178,23 @@
 .products img {
     height: 200px;
 }
+
+@media (max-width: 900px) {
+    .products {
+        flex-direction: column;
+    }
+    .products-sec {
+        height: auto;
+    }
+    .products-item {
+        height: auto;
+        width: auto;
+        margin: 50px 10px;
+    }
+}
 /* ------------------------------------CONTACT------------------------------------*/
 .contact {
-    height: 60vh;
+    height: auto;
 }
 
 .contact-img {
@@ -179,13 +212,32 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 50px;
 }
 .whatsapp {
-    margin-top: 50px;
     text-align: center;
 }
 
 .whatsapp img {
     height: 100px;
     width: 100px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social-items img {
+    height: 69px;
+    width: 69px;
+    margin: 10px;
+
+}
+.location {
+
+}
+.location-img img {
+    height: 100px;
+    width: 140px;
 }

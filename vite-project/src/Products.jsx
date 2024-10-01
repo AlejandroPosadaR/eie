@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material';
 
 const Products = () => {
   return (
-    <div className='products-sec'>
+    <div className='products-sec' id='products-sec'>
         {/* Left section for image */}
         <Typography fontWeight="bold" fontSize="1.4rem" margin="30px" color="black">
             PRODUCTS

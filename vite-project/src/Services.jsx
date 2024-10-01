@@ -4,7 +4,7 @@ import { Box, Typography,Grid2, Divider} from '@mui/material';
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
         <div className='services-top'>
 
             <Typography fontWeight="bold" fontSize="1.4rem">

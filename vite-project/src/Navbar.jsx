@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Typography, Box, IconButton, TextField, Menu, MenuItem, Button } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
@@ -20,28 +19,45 @@ function Navbar() {
         setAnchorEl(null);
     };
 
+    // Function to scroll to specific section by ID
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            const offset = 80; // This is 5rem in pixels (1rem is usually 16px)
+            const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = elementPosition - offset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth' // Smooth scroll
+            });
+        }
+    };
     return (
         <div className='nav-bar'>
             {/* Container for Logo and Text */}
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
                 {/* Logo */}
-                <Link to="/" className='logo'>
+                <a href="/" className='logo'>
                     <img src="../eie.png" alt='Company Logo' />
-                </Link>
+                </a>
                 
                 {/* Text next to logo */}
-                <Typography color='black' sx={{ marginLeft: "1rem", maxWidth: "400px", whiteSpace: "pre-line",fontWeight:"bold"}}>
-                    GENERAL TRADING<br />
-                    HEALTHCARE & COMPRESSION GARMENTS
-                </Typography>
+                <div className='navbar-text'>
+                    <Typography color='black' sx={{ marginLeft: "1rem", maxWidth: "400px", whiteSpace: "pre-line",fontWeight:"bold"}}>
+                        GENERAL TRADING<br />
+                        HEALTHCARE & COMPRESSION GARMENTS
+                    </Typography>
+                </div>
+
             </Box>
 
             {/* Navigation Links */}
             <Box sx={{ display: 'flex', alignItems: 'center', marginLeft: 'auto', gap: '1rem' }}>
-                <Button component={Link} to="/products" sx={{ color: 'black', fontWeight: 'bold' }}>
+                <Button onClick={() => scrollToSection('products-sec')} sx={{ color: 'black', fontWeight: 'bold' }}>
                     Products
                 </Button>
-                <Button component={Link} to="/services" sx={{ color: 'black', fontWeight: 'bold' }}>
+                <Button onClick={() => scrollToSection('services')} sx={{ color: 'black', fontWeight: 'bold' }}>
                     Services
                 </Button>
                 <IconButton
@@ -62,8 +78,8 @@ function Navbar() {
                         'aria-labelledby': 'more-button',
                     }}
                 >
-                    <MenuItem onClick={handleClose}>About Us</MenuItem>
-                    <MenuItem onClick={handleClose}>Vision</MenuItem>
+                    <MenuItem onClick={() => scrollToSection('about')}>About Us</MenuItem>
+                    <MenuItem onClick={() => scrollToSection('vision')}>Vision</MenuItem>
                 </Menu>
             </Box>
 
