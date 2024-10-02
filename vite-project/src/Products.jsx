@@ -14,19 +14,19 @@ const Products = () => {
         {/* Right section for text */}
         <div className='products'>
             <div className='products-item'>
-                <img src='../public/medical.jpg'/>
+                <img src='../medical.jpg'/>
                 <Typography variant="h5" sx={{color:"#1F5D9E",fontWeight:"600",fontSize:"1.4rem",mt:"20px"}}>
                   HEALTHCARE SOLUTIONS
                 </Typography>
             </div>
             <div className='products-item'>
-                <img src='../public/vision.jpeg'/>
+                <img src='../vision.jpeg'/>
                 <Typography variant="h5" sx={{color:"#1F5D9E",fontWeight:"600",fontSize:"1.4rem",mt:"20px"}}>
                     COMPRESSION GARMENTS
                 </Typography>
             </div>
             <div className='products-item'>
-                <img src='../public/eie-plus.jpg'/>
+                <img src='../eie-plus.jpg'/>
                 <Typography variant="h5" sx={{color:"#1F5D9E",fontWeight:"600",fontSize:"1.4rem",mt:"20px"}}>
                   EIE PLUS
                 </Typography>

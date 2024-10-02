@@ -59,7 +59,7 @@ const Hero = () => {
           zIndex:3
         }}
       >
-        <img src='./public/world-map.jpg' alt='hero image' height="100%" width="100%"/>
+        <img src='../world-map.jpg' alt='hero image' height="100%" width="100%"/>
       </Box>
     </Box>
   );

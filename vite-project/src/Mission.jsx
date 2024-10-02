@@ -10,7 +10,7 @@ const Vision = () => {
     <div className='vision' id='vision'>
       {/* Left section for image */}
       <div className='vision-colash'>
-        <img src='../public/vision.jpeg' alt={t('vision.altText')} />
+        <img src='./vision.jpeg' alt={t('vision.altText')} />
       </div>
 
       {/* Right section for text */}
