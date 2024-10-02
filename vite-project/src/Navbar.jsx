@@ -83,7 +83,7 @@ function Navbar() {
                 </Menu>
             </Box>
 
-            {/* Search Bar */}
+            {/* Search Bar 
             <Box sx={{ display: 'flex', alignItems: 'center', marginLeft: '1rem' }}>
                 <TextField
                     variant="outlined"
@@ -98,7 +98,7 @@ function Navbar() {
                         sx: { borderRadius: '20px', backgroundColor: '#f0f0f0' },
                     }}
                 />
-            </Box>
+            </Box>*/}
 
             {/* Language Switcher */}
             <LanguageSwitcher />

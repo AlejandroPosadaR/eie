@@ -114,8 +114,6 @@
     overflow: hidden;
     justify-content: center;
     min-height: 600px;
-    
-
 }
 
 .services-top {
@@ -135,8 +133,8 @@
 .services-img img {
     height: 100%;
     width: 100%;
-
 }
+
 .services-bottom {
     height: auto;
     background-color: #0A1931;
@@ -144,6 +142,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 @media (max-width: 900px) {
     .vision {
         height: auto;
@@ -161,9 +160,8 @@
     flex-direction:column;
     overflow: hidden;
     justify-content: center;
-    
-
 }
+
 .products {
     display: flex;
     flex-direction: row;
@@ -175,6 +173,7 @@
     width: 500px;
     margin: 50px 10px;
 }
+
 .products img {
     height: 200px;
 }
@@ -234,10 +233,17 @@
     margin: 10px;
 
 }
+
 .location {
 
 }
+
 .location-img img {
     height: 100px;
     width: 140px;
+}
+@media (max-width: 900px) {
+    .contact-img {
+        height: auto;
+    }
 }

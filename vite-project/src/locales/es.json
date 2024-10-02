@@ -1,0 +1,31 @@
+{
+    "hero": {
+      "title": "Explora la Excelencia en la Cadena de Suministros de Salud",
+      "description": "Descubre un mundo de posibilidades, donde nuestra alta calidad y excelente servicio al cliente se encuentran. Priorizamos tus altos estándares y necesidades únicas, brindándote la mejor experiencia empresarial.",
+      "button": "Saber más"
+    },
+    "vision": {
+          "title": "Visión",
+          "description": "Estamos dedicados a proporcionar un servicio y productos excepcionales en la industria de la salud y prendas de compresión. Nuestro equipo está comprometido con ofrecer la más alta calidad y asegurar que las necesidades de nuestros clientes siempre sean satisfechas con profesionalismo y cuidado."
+        },
+    "mission": {
+        "title": "Misión",
+        "description": "Estamos dedicados a proporcionar un servicio y productos excepcionales en la industria de la salud y prendas de compresión. Nuestro equipo está comprometido con ofrecer la más alta calidad y asegurar que las necesidades de nuestros clientes siempre sean satisfechas con profesionalismo y cuidado."
+    },
+    "about": {
+        "title": "Sobre Nosotros",
+        "description": "Estamos dedicados a proporcionar un servicio y productos excepcionales en la industria de la salud y prendas de compresión. Nuestro equipo está comprometido con ofrecer la más alta calidad y asegurar que las necesidades de nuestros clientes siempre sean satisfechas con profesionalismo y cuidado.",
+        "altText": "Imagen sobre nosotros"
+    },
+    "services": {
+        "title": "NUESTROS SERVICIOS",
+        "altText": "Imagen de servicios",
+        "qualityProducts": "Fuente de productos de calidad",
+        "efficientSupply": "Gestión eficiente de la cadena de suministro",
+        "customSolutions": "Soluciones empresariales personalizadas",
+        "marketResearch": "Investigación y análisis de mercado"
+      }
+      
+      
+  }
+  

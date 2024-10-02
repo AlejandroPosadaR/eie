@@ -22,29 +22,29 @@ const LanguageSwitcher = () => {
 
   return (
     <div >
-<IconButton
-  onClick={handleClick}
-  sx={{
-    borderRadius: '20px',
-    color: "#161E33",
-    '&:hover': {
-      backgroundColor: '#2672b87',
-    },
-    // Show full IconButton on PC and only icon on mobile
-    '@media (max-width: 600px)': {
-      padding: '10px',
-      minWidth: 'auto',
-      '& .MuiButton-startIcon': {
-        margin: 0,
-      },
-      '& .MuiButton-label': {
-        display: 'none', // Hide text on mobile
-      },
-    },
-  }}
->
-  <LanguageIcon sx={{ color: "#161E33", height: "35px", width: "35px" }} />
-</IconButton>
+      <IconButton
+        onClick={handleClick}
+        sx={{
+          borderRadius: '20px',
+          color: "#161E33",
+          '&:hover': {
+            backgroundColor: '#2672b87',
+          },
+          // Show full IconButton on PC and only icon on mobile
+          '@media (max-width: 600px)': {
+            padding: '10px',
+            minWidth: 'auto',
+            '& .MuiButton-startIcon': {
+              margin: 0,
+            },
+            '& .MuiButton-label': {
+              display: 'none', // Hide text on mobile
+            },
+          },
+        }}
+      >
+      <LanguageIcon sx={{ color: "#161E33", height: "35px", width: "35px" }} />
+    </IconButton>
 
       <Menu
         anchorEl={anchorEl}

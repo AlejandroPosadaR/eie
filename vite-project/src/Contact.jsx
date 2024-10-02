@@ -19,7 +19,8 @@ const Contact = () => {
         <div className='contact-bottom'>
             <div className='whatsapp'>
                 <img src='../public/what.png' alt='whatsapp logo'/>
-                <Typography fontWeight="400" sx={{maxWidth:"400px", color:"white"}} margin={{xs:"8px",sm:"8px",md:"20px"}}>
+                <Typography fontWeight="400" sx={{maxWidth:"400px", color:"white"}}
+                margin={{xs:"8px",sm:"8px",md:"20px"}} >
                     Tel:(+965)22209771 - (+965) 90900303<br/>
                     business@eliteintercontinentalenterprise.com<br/>
                     management@eliteintercontinentalenterprise.com

@@ -1,0 +1,29 @@
+{
+    "hero": {
+      "title": "Explore Excellence in Healthcare Supplies Chain",
+      "description": "Discover a world of possibilities, where our high quality and excellent customer services meet. We prioritize your high standards and unique needs, with the best business experience.",
+      "button": "Learn More"
+    },
+    "vision": {
+        "title": "Vision",
+        "description": "We are dedicated to providing exceptional service and products in the healthcare and compression garments industry. Our team is committed to delivering the highest quality and ensuring that our clients' needs are always met with professionalism and care."
+      },
+      "mission": {
+        "title": "Mission",
+        "description": "We are dedicated to providing exceptional service and products in the healthcare and compression garments industry. Our team is committed to delivering the highest quality and ensuring that our clients' needs are always met with professionalism and care."
+      },
+      "about": {
+        "title": "About Us",
+        "description": "We are dedicated to providing exceptional service and products in the healthcare and compression garments industry. Our team is committed to delivering the highest quality and ensuring that our clients' needs are always met with professionalism and care.",
+        "altText": "About image"
+      },
+      "services": {
+        "title": "OUR SERVICES",
+        "altText": "Services image",
+        "qualityProducts": "Quality Products Sourcing",
+        "efficientSupply": "Efficient Supply Chain Management",
+        "customSolutions": "Customize Business Solutions",
+        "marketResearch": "Market Research & Analysis"
+      }
+  }
+  

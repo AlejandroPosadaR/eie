@@ -1,18 +1,19 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <Box
       sx={{
         display: 'flex',
         alignItems: 'center',
-        height: '95vh',
-        backgroundColor: '#0A1931', // Dark blue background
+        height:  { xs:'auto', md: '90vh' },
+        backgroundColor: '#0A1931',
         color: 'white',
-        paddingLeft: '2rem',
-        flexDirection:{xs:'column',md:'row'},
-        maxHeight:"700px"
+        flexDirection: { xs:'column-reverse', md: 'row' } 
       }}
     >
       {/* Left section for text */}
@@ -23,15 +24,15 @@ const Hero = () => {
           maxWidth: '600px',
           display: 'flex',
           flexDirection: 'column',
+          p:  { xs:' 3rem', md: '4rem' },
           justifyContent: 'center',
         }}
       >
-        <Typography variant="h4" fontWeight="bold" sx={{textAlign:"left"}} gutterBottom>
-          Explore Excellence in Healthcare Supplies Chain
+        <Typography variant="h4" fontWeight="bold" sx={{ textAlign: "left" }} gutterBottom>
+          {t('hero.title')}
         </Typography>
-        <Typography variant="h5" sx={{alignContent:"left",textAlign:"left"}}>
-          Discover a world of possibilities, where our high quality and excellent customer services meet. 
-          We prioritize your high standards and unique needs, with the best business experience.
+        <Typography variant="h5" sx={{ textAlign: "left",mt:"1rem" }}>
+          {t('hero.description')}
         </Typography>
         <Button
           variant="contained"
@@ -41,23 +42,25 @@ const Hero = () => {
             color: '#0A1931',
             fontWeight: 'bold',
             width: '150px',
-            marginTop: '1rem',
+            marginTop: '2rem',
           }}
         >
-          Learn More
+          {t('hero.button')}
         </Button>
       </Box>
 
       {/* Right section for the background image */}
       <Box
         sx={{
-          flex: 1,
-          backgroundImage: 'url(../public/world-map.jpg)', // Replace with your image path
           backgroundPosition: 'center',
           backgroundSize: 'cover',
-          height: '100%',
+          height: { xs:'auto', md: '100%' },
+          width: { xs:'100%', md: '60%' },
+          zIndex:3
         }}
-      ></Box>
+      >
+        <img src='../public/world-map.jpg' alt='hero image' height="100%" width="100%"/>
+      </Box>
     </Box>
   );
 };
