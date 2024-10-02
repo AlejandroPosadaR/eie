@@ -13,7 +13,8 @@ const Hero = () => {
         height:  { xs:'auto', md: '90vh' },
         backgroundColor: '#0A1931',
         color: 'white',
-        flexDirection: { xs:'column-reverse', md: 'row' } 
+        flexDirection: { xs:'column-reverse', md: 'row' }, 
+
       }}
     >
       {/* Left section for text */}
@@ -25,7 +26,9 @@ const Hero = () => {
           display: 'flex',
           flexDirection: 'column',
           p:  { xs:' 3rem', md: '4rem' },
+          pt: {xs:'0rem'},
           justifyContent: 'center',
+
         }}
       >
         <Typography variant="h4" fontWeight="bold" sx={{ textAlign: "left" }} gutterBottom>
@@ -56,7 +59,8 @@ const Hero = () => {
           backgroundSize: 'cover',
           height: { xs:'auto', md: '100%' },
           width: { xs:'100%', md: '60%' },
-          zIndex:3
+          zIndex:3,
+          clipPath:  { xs:'polygon(0% 0%, 100% 0%, 100% 97%, 0% 70%);', md: 'none' },
         }}
       >
         <img src='../world-map.jpg' alt='hero image' height="100%" width="100%"/>
