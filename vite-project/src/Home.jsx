@@ -18,7 +18,7 @@ function Home() {
       <Services/>
       <Products/>
       <Contact/>
-      <Footer/>
+      {/*<Footer/>*/}
     </>
   );
 }

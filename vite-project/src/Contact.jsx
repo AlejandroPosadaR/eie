@@ -1,14 +1,15 @@
 import React from 'react';
 import './About.css';
 import { Box, Typography,Grid2, Divider} from '@mui/material';
-
+import { useTranslation } from 'react-i18next';
 const Contact = () => {
+    const {t} = useTranslation();
   return (
     <div className='contact'>
         <div className='services-top'>
 
             <Typography fontWeight="bold" fontSize="1.4rem">
-                CONTACT US
+                {t('contact')}
 
             </Typography>
         </div>
