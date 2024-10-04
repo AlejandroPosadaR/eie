@@ -40,6 +40,8 @@ const Hero = () => {
         <Button
           variant="contained"
           color="primary"
+          role='button'
+          id='learn-more'
           sx={{
             backgroundColor: '#fff',
             color: '#0A1931',
