@@ -14,7 +14,7 @@ const Services = () => {
         </Typography>
       </div>
       <div className='services-img'>
-        <img src='../services.jpg' alt={t('services.altText')} />
+        <img src='../new-ser.jpg' alt={t('services.altText')} />
       </div>
       <div className='services-bottom'>
         <Typography fontWeight="400" fontSize="1.4rem" color='white' sx={{ maxWidth: "270px" }} margin={{ xs: "8px", sm: "8px", md: "20px" }}>
