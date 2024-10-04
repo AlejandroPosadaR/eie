@@ -16,7 +16,7 @@
 .about-truck {
     height: 80%;
     margin: 50px;
-    width: auto;
+    width: 40%;
     max-height: 400px;
 }
 .about-truck img {
@@ -62,7 +62,7 @@
 
 .vision-colash {
     margin: 50px;
-    width: auto;
+    width: 50%;
 }
 
 .vision-colash img {
