@@ -42,8 +42,8 @@ const Contact = () => {
               <Typography sx={{ color: "white" }}>Instagram</Typography>
             </div>
   
-            <div className='social-items'>
-              <img src='../ig.png' alt='Email icon' />
+            <div className='social-items email'>
+              <img src='../email.png' alt='Email icon' />
               <Typography sx={{ color: "white" }}>Email</Typography>
             </div>
   

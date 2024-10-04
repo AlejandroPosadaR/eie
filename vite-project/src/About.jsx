@@ -10,7 +10,7 @@ const About = () => {
     <div className='about' id='about'>
       {/* Left section for image */}
       <div className='about-truck'>
-        <img src='../logistics-truck.jpg' alt={t('about.altText')} />
+        <img src='../new-truck.jpg' alt={t('about.altText')} />
       </div>
 
       {/* Right section for text */}
