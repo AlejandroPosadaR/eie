@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import { Box, Typography,Grid2, Divider} from '@mui/material';
 import { useTranslation } from 'react-i18next';
+
 const Contact = () => {
     const {t} = useTranslation();
   return (

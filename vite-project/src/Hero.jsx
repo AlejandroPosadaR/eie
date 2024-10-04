@@ -63,7 +63,7 @@ const Hero = () => {
           clipPath:  { xs:'polygon(0% 0%, 100% 0%, 100% 97%, 0% 70%);', md: 'none' },
         }}
       >
-        <img src='../world-map.jpg' alt='hero image' height="100%" width="100%"/>
+        <img src='../hero.jpeg' alt='hero image' height="100%" width="100%"/>
       </Box>
     </Box>
   );
