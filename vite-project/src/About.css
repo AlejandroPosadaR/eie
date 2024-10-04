@@ -44,6 +44,8 @@
     }
     .about-truck {
         margin: 30px;
+        width: auto;
+
     }
 }
 /* ------------------------------------VISION------------------------------------*/
@@ -75,6 +77,10 @@
         max-height: fit-content;
         flex-direction: column;
     }
+    .vision-colash {
+        width: auto;
+
+    }
 
     .about-text { 
         margin-top: 10px;
@@ -82,6 +88,7 @@
     }
     .about-truck {
         margin: 30px;
+        width: auto;
     }
 }
 .heading-with-line {
@@ -100,7 +107,7 @@
     bottom: -4px; /* Adjust distance from the text */
     width: 60px; /* Length of the orange line */
     height: 4px; /* Thickness of the line */
-    background-color: #0a439d; 
+    background-color: #0d90fb; 
 }
 
 /* ------------------------------------SERVICES------------------------------------*/
