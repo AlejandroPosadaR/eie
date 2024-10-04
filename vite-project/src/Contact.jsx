@@ -57,7 +57,7 @@ const Contact = () => {
   
           <div className='location'>
             <div className='location-img'>
-              <img src='../new-location.png' alt='Map Pin' />
+              <img src='../cropped-loc.png' alt='Map Pin' />
               <Typography sx={{ color: "white" }}>
                 Address: Sharq Block 2, Abdalla Al Ahmad Street<br />
                 3S Complex, 3rd Floor, Office No. 2, 15302 Al Asimah<br />

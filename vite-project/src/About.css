@@ -245,8 +245,8 @@
 }
 
 .location-img img {
-    height: 100px;
-    width: 140px;
+    height: 90px;
+    width: 110px;
 }
 @media (max-width: 900px) {
     .contact-img {
