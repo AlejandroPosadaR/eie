@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import { Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next'; // Import the i18n hook
+import { motion } from 'framer-motion';
 
 const Vision = () => {
   const { t } = useTranslation(); // Initialize the translation function
@@ -14,7 +15,10 @@ const Vision = () => {
       </div>
 
       {/* Right section for text */}
-      <div className='about-text'>
+      <motion.div className='about-text'
+           initial={{ opacity: 0, scale: 1, x: -100 }}
+           whileInView={{ opacity: 1, scale: 1, x: 0 }}
+           transition={{ duration: 0.8, delay: 0.15 }}>
         {/* Vision Section */}
         <Typography variant="h4" fontWeight="bold" gutterBottom className="heading-with-line">
           {t('vision.title')}
@@ -30,7 +34,7 @@ const Vision = () => {
         <Typography variant="body1" sx={{ fontSize: "1.15rem" }}>
           {t('mission.description')}
         </Typography>
-      </div>
+      </motion.div>
     </div>
   );
 };

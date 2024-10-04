@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -19,6 +20,10 @@ const Hero = () => {
     >
       {/* Left section for text */}
       <Box
+            component={motion.div}
+            initial={{ opacity: 0, scale: 1, y: 100 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.15 }}
         sx={{
           flex: 1,
           padding: '2rem',

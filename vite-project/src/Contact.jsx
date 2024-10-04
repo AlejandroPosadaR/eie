@@ -37,19 +37,19 @@ const Contact = () => {
           <div className='social'>
             <div className='social-items'>
               <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
-                <img src='../ig.png' alt='Instagram logo' />
+                <img src='../instagram.png' alt='Instagram logo' />
               </a>
               <Typography sx={{ color: "white" }}>Instagram</Typography>
             </div>
   
             <div className='social-items email'>
-              <img src='../email.png' alt='Email icon' />
+              <img src='../new-email.png' alt='Email icon' />
               <Typography sx={{ color: "white" }}>Email</Typography>
             </div>
   
             <div className='social-items'>
               <a href="https://wa.me/96590900303" target="_blank" rel="noopener noreferrer">
-                <img src='../what2.png' alt='WhatsApp logo' />
+                <img src='../new-what.png' alt='WhatsApp logo' />
               </a>
               <Typography sx={{ color: "white" }}>WhatsApp</Typography>
             </div>
