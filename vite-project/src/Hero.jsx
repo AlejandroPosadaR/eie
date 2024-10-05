@@ -69,10 +69,10 @@ const Hero = () => {
       }}
     >
       <img
-        src="../hero.jpeg" // fallback image for browsers that don't support srcSet
+        src="../hero-1500.jpeg" // fallback image for browsers that don't support srcSet
         srcSet="
           ../hero-small.jpeg 600w,
-          ../hero.jpeg 1500w
+          ../hero-1500.jpeg 1500w
         "
         alt="hero image"
         style={{ height: '100%', width: '100%' }}
