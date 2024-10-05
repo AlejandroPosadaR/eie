@@ -17,12 +17,12 @@ button:focus { outline: none !important;;}
 
 .logo {
     height: 4rem;
-    width: auto;
+    width: 6rem;
 }
 
 .logo img {
     height: 4rem;
-    width: auto;
+    width: 8rem;
 }
 
 /* Adjustments for search bar, buttons, etc. */
