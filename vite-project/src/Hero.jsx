@@ -71,8 +71,8 @@ const Hero = () => {
       <img
         src="../hero.jpeg" // fallback image for browsers that don't support srcSet
         srcSet="
-          ../hero-small.jpeg 600w,
-          ../hero-1400.jpeg 1500w
+          ../hero-small.jpeg 800w,
+          ../hero.jpeg 1500w
         "
         alt="hero image"
         style={{ height: '100%', width: '100%' }}
