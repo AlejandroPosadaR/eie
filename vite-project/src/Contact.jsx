@@ -15,7 +15,11 @@ const Contact = () => {
         </div>
   
         <div className='contact-img'>
-          <img src='../map.png' alt='Map' />
+          <img src='../map.png' // fallback image for browsers that don't support srcSet
+                  srcSet="
+                    ../small-map.png' 600w,
+                    ../map.png' 1500w
+                  " alt='Map' />
         </div>
   
         <div className='contact-bottom'>

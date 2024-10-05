@@ -105,9 +105,9 @@
     position: absolute;
     left: 0;
     bottom: -4px; /* Adjust distance from the text */
-    width: 60px; /* Length of the orange line */
+    width: 100%; /* Length of the orange line */
     height: 4px; /* Thickness of the line */
-    background-color: #0d90fb; 
+    background: linear-gradient(90deg, #0d90fb, #b8e4ff); /* Gradient from #0d90fb to a lighter blue */
 }
 
 /* ------------------------------------SERVICES------------------------------------*/
@@ -245,8 +245,8 @@
 }
 
 .location-img img {
-    height: 90px;
-    width: 110px;
+    height: 80px;
+    width: 100px;
 }
 @media (max-width: 900px) {
     .contact-img {
