@@ -18,7 +18,7 @@ const Vision = () => {
       <motion.div className='about-text'
            initial={{ opacity: 0, scale: 1, x: -100 }}
            whileInView={{ opacity: 1, scale: 1, x: 0 }}
-           transition={{ duration: 0.8, delay: 0.15 }}>
+           transition={{ duration: 0.6, delay: 0.15 }}>
         {/* Vision Section */}
         <Typography variant="h4" fontWeight="bold" gutterBottom className="heading-with-line">
           {t('vision.title')}
