@@ -20,7 +20,7 @@ const Products = () => {
                 </Typography>
             </div>
             <div className='products-item'>
-                <img src='../crop-faja.jpeg' alt='Corsets'/>
+                <img src='../corsets.jpeg' alt='Corsets'/>
                 <Typography variant="h5" sx={{color:"#1F5D9E",fontWeight:"600",fontSize:"1.4rem",mt:"20px"}}>
                     COMPRESSION GARMENTS
                 </Typography>
