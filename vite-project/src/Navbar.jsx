@@ -83,24 +83,6 @@ function Navbar() {
                 </Menu>
             </Box>
 
-            {/* Search Bar 
-            <Box sx={{ display: 'flex', alignItems: 'center', marginLeft: '1rem' }}>
-                <TextField
-                    variant="outlined"
-                    size="small"
-                    placeholder="Search"
-                    InputProps={{
-                        endAdornment: (
-                            <IconButton>
-                                <SearchIcon />
-                            </IconButton>
-                        ),
-                        sx: { borderRadius: '20px', backgroundColor: '#f0f0f0' },
-                    }}
-                />
-            </Box>*/}
-
-            {/* Language Switcher */}
             <LanguageSwitcher />
         </div>
     );

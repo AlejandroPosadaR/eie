@@ -50,25 +50,25 @@
 }
 /* ------------------------------------VISION------------------------------------*/
 .vision {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     background-color: white    ;
     display: flex;
     flex-direction:row;
     overflow: hidden;
     justify-content: center;
-    min-height: 600px;
+    min-height: 800px;
     
 
 }
 
 .vision-colash {
-    margin: 50px;
+    margin: auto 40px;
     width: 50%;
 }
 
 .vision-colash img {
-    height: 100%;
+    height: 90%;
     width: 100%;
 }
 @media (max-width: 900px) {

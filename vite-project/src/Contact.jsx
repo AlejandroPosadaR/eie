@@ -40,7 +40,7 @@ const Contact = () => {
   
           <div className='social'>
             <div className='social-items'>
-              <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/eie_kw/" target="_blank" rel="noopener noreferrer">
                 <img src='../instagram.png' alt='Instagram logo' />
               </a>
               <Typography sx={{ color: "white" }}>Instagram</Typography>
