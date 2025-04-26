@@ -52,6 +52,7 @@ const Hero = () => {
             width: '150px',
             marginTop: '2rem',
           }}
+          onClick={() => scrollToSection('about')}
         >
           {t('hero.button')}
         </Button>
