@@ -46,10 +46,10 @@ const Contact = () => {
               <Typography sx={{ color: "white" }}>Instagram</Typography>
             </div>
   
-            <div className='social-items email'>
+            {/*<div className='social-items email'>
               <img src='../new-email.png' alt='Email icon' />
               <Typography sx={{ color: "white" }}>Email</Typography>
-            </div>
+            </div>*/}
   
             <div className='social-items'>
               <a href="https://wa.me/96590900303" target="_blank" rel="noopener noreferrer">

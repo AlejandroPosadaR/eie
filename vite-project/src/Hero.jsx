@@ -2,10 +2,21 @@ import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-
 const Hero = () => {
   const { t } = useTranslation();
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+        const offset = 80; // This is 5rem in pixels (1rem is usually 16px)
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - offset;
 
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth' // Smooth scroll
+        });
+    }
+};
   return (
     <Box
       sx={{
